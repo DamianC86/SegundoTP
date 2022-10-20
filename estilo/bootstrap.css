@@ -10893,7 +10893,7 @@ textarea.form-control-lg {
 
 .bgPropio2{
   background-color: #D7D7D7;
-  margin: -6rem;
+  margin-top: -6rem;
   padding: 0px;
   padding-top: 3rem;
 }
@@ -10968,7 +10968,6 @@ span:before, span:after{
 
 .hrConClase{
   padding-top: 4rem;
-  padding-bottom: 4rem;
   margin-left: 8%;
   margin-right: 8%;
 }
@@ -10978,4 +10977,28 @@ span:before, span:after{
   flex-direction: row;
 }
 
+.cajita3{
+  font-style: italic;
+  font-weight: bold;
+  color: #9B9CA0;
+}
+
+.modCuadrado{
+  margin-top: 0.4rem;
+  margin-right: 1rem;
+  border-radius: 0.345rem;
+}
+
+.tuiter{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  body{
+    max-width: 768px;
+  }
+  span{
+    display: none;
+  }
+}
 /*# sourceMappingURL=bootstrap.css.map */
