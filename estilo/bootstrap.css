@@ -10993,7 +10993,11 @@ span:before, span:after{
   text-decoration: none;
 }
 
-@media only screen and (max-width: 480px) {
+.portPort{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
   body{
     max-width: 768px;
   }
